@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|a:\\projects\\aws\\projects\\mycountrylist\\backend-mcl\\countrylist\\controllers\\clcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|solutionrelative:countrylist\\controllers\\clcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|a:\\projects\\aws\\projects\\mycountrylist\\backend-mcl\\countrylist\\models\\countryvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|solutionrelative:countrylist\\models\\countryvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|a:\\projects\\aws\\projects\\mycountrylist\\backend-mcl\\countrylist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|solutionrelative:countrylist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|a:\\projects\\aws\\projects\\mycountrylist\\backend-mcl\\countrylist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93FDA29-3A55-4451-ADD5-6EFDF5C3D36C}|countryList\\countryList.csproj|solutionrelative:countrylist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CLController.cs",
+              "DocumentMoniker": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Controllers\\CLController.cs",
+              "RelativeDocumentMoniker": "countryList\\Controllers\\CLController.cs",
+              "ToolTip": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Controllers\\CLController.cs",
+              "RelativeToolTip": "countryList\\Controllers\\CLController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T03:24:38.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "countryList\\appsettings.Development.json",
+              "ToolTip": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\appsettings.Development.json",
+              "RelativeToolTip": "countryList\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T00:58:16.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountryVisit.cs",
+              "DocumentMoniker": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Models\\CountryVisit.cs",
+              "RelativeDocumentMoniker": "countryList\\Models\\CountryVisit.cs",
+              "ToolTip": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Models\\CountryVisit.cs",
+              "RelativeToolTip": "countryList\\Models\\CountryVisit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T03:10:45.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Program.cs",
+              "RelativeDocumentMoniker": "countryList\\Program.cs",
+              "ToolTip": "A:\\Projects\\AWS\\Projects\\MyCountryList\\backend-mcl\\countryList\\Program.cs",
+              "RelativeToolTip": "countryList\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T12:32:49.174Z",
+              "EditorCaption": ""
             }
           ]
         }
