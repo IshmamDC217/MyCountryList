@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+/* Basic reset */
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #386d0c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+td {
+  background-color: #f2f2f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:hover {
+  background-color: #ddd;
+}
+
+input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+input[type="text"] {
+  width: 90%;
+  margin-bottom: 12px;
+}
+
+.input-field {
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  border: 2px solid #000000; 
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border-radius: 4px;
+}
+
+.filter-input {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  width: calc(100% - 10px);
+}
+
+.sort-indicator {
+  margin-left: 5px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5%;
+  background: #e4aa2d;
+  box-shadow: inset 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  margin-bottom: 20px;
 }

@@ -44,7 +44,7 @@ namespace countryList.Controllers
                 {
                     ID = Convert.ToInt32(row["ID"]),
                     CountryName = row["CountryName"].ToString(),
-                    VisitDate = Convert.ToInt32(row["VisitDate"]), // This should not throw an exception if VisitDate is a year
+                    VisitDate = Convert.ToInt32(row["VisitDate"]),
                     Notes = row["Notes"].ToString(),
                     Rating = Convert.ToInt32(row["Rating"])
                 });
